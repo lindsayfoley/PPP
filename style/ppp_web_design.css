@@ -1,0 +1,249 @@
+/* desktop only animation */
+@media screen and (min-width : 769px)  {
+
+#web_design_container {
+	width: 90%!important;
+}
+
+#web_screenshots {
+	width: 100%!important;
+}
+
+#jia_screenshot, #theyer_screenshot {
+	width: 40%!important;
+}
+
+#jia_sprite, #theyer_sprite {
+	width: 100%!important;
+	height: 0!important;
+	padding-bottom: 60%!important;
+	background-size: 100% auto!important;
+}
+
+#jia_sprite {
+	background-position: 0 0.2%!important;
+}
+
+#jia_sprite:hover {	
+	background-position: 0 -100%!important;
+}
+
+#theyer_sprite  {
+	background-position: 0 1.5%!important;
+}
+
+#theyer_sprite:hover {
+	background-position: 0px -99%!important;
+}
+
+}
+
+/* Default desktop styling */
+
+#content {
+	clear: left;
+	width: 1000px;
+	height: auto;
+}
+ 
+#web_design_container {
+	height: auto;	
+	padding: 50px 50px;
+	width: 900px;
+	float: left;
+	border: 1px dashed #E8E7E7;
+}
+/* Default desktop styling */
+
+#content {
+	clear: left;
+	width: 1000px;
+	height: auto;
+}
+ 
+#web_design_container {
+	height: auto;	
+	padding: 50px 50px;
+	width: 900px;
+	float: left;
+	margin-bottom: 50px;
+	background-color: #FAFAFA;
+	border: 1px dashed #e8e7e7;
+}
+
+
+#web_design_opening_p {
+	margin-bottom: 45px;
+}
+
+#web_screenshots  {
+	margin-bottom: 70px;
+	width: 900px;
+	height: auto;
+
+}
+
+#jia_screenshot, #theyer_screenshot {
+	width: 400px;
+	height: auto;
+}
+
+#jia_screenshot {
+	float: left;
+}
+
+#theyer_screenshot {
+	float: right;
+}
+
+
+h5 {
+	font-size: 17px;
+	padding: 20px 10px 0px 15px;
+	margin: 0px;
+}
+
+#jia_sprite {
+	height: 240px;
+	width: 400px;
+	background-image: url(/images/jia_screenshot_sprite.png);	
+	background-position: 0px 0px;
+}
+
+#jia_sprite:hover {	
+	background-position: 0px -240px;
+}
+
+#theyer_sprite {
+	height: 240px;
+	width: 400px;
+	background-image: url(/images/theyer_screenshot_sprite.png);	
+	background-position: 0px -1px;
+}
+
+#theyer_sprite:hover {
+	background-position: 0px -240px
+}
+
+.details_hide {
+	display: none;
+}
+
+.screenshot {
+	display: block;	
+}
+
+.screenshot:focus + .details_hide {
+	display: block;
+}
+
+.details_hide:focus {
+	display: none;
+}
+
+#content:focus {
+	outline: 0;
+	outline-color: transparent;
+	outline-style: none;
+}
+
+#jia_screenshot a, #theyer_screenshot a {
+	text-decoration: none;	
+}
+
+.website_name {
+	font-weight: bold;
+	font-style: itelic;
+	color: #FB00A0;
+	font-size: 18px;
+}
+	margin-bottom: 50px;
+	background-color: #FAFAFA;
+}
+
+
+#web_design_opening_p {
+	margin-bottom: 45px;
+}
+
+#web_screenshots  {
+	margin-bottom: 70px;
+	width: 900px;
+	height: auto;
+
+}
+
+#jia_screenshot, #theyer_screenshot {
+	width: 400px;
+	height: auto;
+}
+
+#jia_screenshot {
+	float: left;
+}
+
+#theyer_screenshot {
+	float: right;
+}
+
+
+h5 {
+	font-size: 17px;
+	padding: 20px 10px 0px 15px;
+	margin: 0px;
+}
+
+#jia_sprite {
+	height: 240px;
+	width: 400px;
+	background-image: url(/images/jia_screenshot_sprite.png);	
+	background-position: 0px 0px;
+}
+
+#jia_sprite:hover {	
+	background-position: 0px -240px;
+}
+
+#theyer_sprite {
+	height: 240px;
+	width: 400px;
+	background-image: url(/images/theyer_screenshot_sprite.png);	
+	background-position: 0px -1px;
+}
+
+#theyer_sprite:hover {
+	background-position: 0px -240px
+}
+
+.details_hide {
+	display: none;
+}
+
+.screenshot {
+	display: block;	
+}
+
+.screenshot:focus + .details_hide {
+	display: block;
+}
+
+.details_hide:focus {
+	display: none;
+}
+
+#content:focus {
+	outline: 0;
+	outline-color: transparent;
+	outline-style: none;
+}
+
+#jia_screenshot a, #theyer_screenshot a {
+	text-decoration: none;	
+}
+
+.website_name {
+	font-weight: bold;
+	font-style: itelic;
+	color: #FB00A0;
+	font-size: 18px;
+}

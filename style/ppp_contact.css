@@ -1,0 +1,157 @@
+/* Default desktop styling */
+
+#contact_section {
+	background-color: #FAFAFA;
+	border: 1px dashed #e8e7e7;
+	width: 90%;
+	height: 540px;
+	margin-bottom: 50px;
+	padding: 5%;
+}
+
+#contact_container { 
+	height: 340px;	
+	float: left;
+}
+
+#typewriter_img {
+	float: left;	
+	margin-top: 14px;
+	margin-left: 200px;
+}
+
+#contact_header {
+	width: 122%;
+	margin-top: 0;
+}
+
+#pricing_text, #availability_text {
+	float: left;
+	width: 47.5%;
+	padding-top: 20px;
+}
+
+
+#pricing_text {
+	margin: 0px 2.5% 60px 0px;
+}
+
+#availability_text {
+    margin-left: 50px;
+	margin: 0px 0px 60px 2.5%;
+}
+
+#contact_details {
+	float: left;
+	width: 38.888%;
+	height: 340px;
+}
+
+p {
+      margin: 15px 0px;
+}
+
+.our_email_address, #prices {
+	  font-family: "Courier New", Courier, monospace;
+          text-decoration: none;
+}
+
+
+.our_email_address {
+     color: black;
+     font-size: 15px;
+     display: block;
+}
+
+
+#pricing {
+	margin-top: 15px;	
+}
+
+
+#black_overlay {
+	display: none;
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.8);
+	z-index:100;
+}
+	
+.lightbox_background {
+	display: none;
+	width: 407px;
+	height: 250px;
+	margin: 13% auto 0 auto;
+	z-index:1002;
+	overflow: auto;
+	background-color: #FCF1F9;
+	padding: 20px;
+}
+
+#back_close_box {
+	display: block;
+	width: 407px;
+	height: 20px;
+	text-decoration: none;
+}
+
+#close_button {	
+	color: black;
+	font-size: 20px;
+	float: right;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	padding-bottom: 10px;
+	margin: 0px 15px 0px 0px;
+}
+
+
+ul li {
+	list-style-type: none;
+	font-size: 10pt;
+	line-height: 18px;
+	
+	
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;	
+	
+}
+
+.lightbox_text {
+	text-decoration: none;
+	color: #FF34B3;
+	
+}
+
+#prices_lightbox_p {
+	font-weight: normal;
+	padding-bottom: 8px;
+	line-height: 18px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+		
+}
+
+
+#guide_link {
+	color: #FF34B3;
+	font-weight: bold;
+}
+
+
+.fa-mobile {
+	font-size: 20px;
+	color: #FF34B3;
+}
+
+.fa-envelope {
+	font-size: 16px;	
+	color: #FF34B3;
+}

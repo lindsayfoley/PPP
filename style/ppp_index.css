@@ -1,0 +1,321 @@
+/* desktop only animation */
+@media only screen and (min-width : 980px)  {
+
+#logo:hover {
+	animation: paw_bounce 1s;
+	-webkit-animation: paw_bounce 2s; /* Safari and Chrome */
+	animation-duration: 1s;
+	animation-timing-function: ease;
+}
+
+@keyframes paw_bounce {
+	0%   {
+		top: -59px;
+		left: 46%;
+	}
+	
+	25%  {
+		top: -76px;
+		left: 46%;
+	}
+	
+	50%  {
+		top: -55px;
+		left: 46%;
+	}
+	
+	75% {
+		top: -65px;
+		left: 46%;
+	}
+	
+	100% {
+		top: -60px;
+		left: 46%;
+	}
+	
+}
+
+@-webkit-keyframes paw_bounce /* Safari and Chrome */ {
+	0%   {
+		top: -59px;
+		left: 46%;
+	}
+	
+	25%  {
+		top: -76px;
+		left: 46%;
+	}
+	
+	50%  {
+		top: -55px;
+		left: 46%;
+	}
+	
+	75% {
+		top: -65px;
+		left: 46%;
+	}
+	
+	100% {
+		top: -60px;
+		left: 46%;
+	}
+}
+
+}
+
+
+/* Default desktop styling */
+
+body {
+	margin: 0px auto;
+    -webkit-text-size-adjust: 100%;
+	font-family: "Courier New", Courier, monospace!important;
+}
+
+
+#content {
+       position: relative;
+       height: 150px;
+	   margin-top: 20px;
+}
+
+#wrap div {
+	margin: 0 auto;
+	width: 66.4011%;
+	border: 0;
+}
+
+
+.wrap {
+	max-width: 66.401062417%;
+	margin: 0 auto;
+	min-width: 800px;
+}
+
+#paw_home {
+	margin: 0 auto;
+	border-top: 4px solid black;
+	height: 90px;
+	padding: 15px 0px;
+	background-color: white;
+}
+
+#header_clear {
+	clear: both;
+}
+
+#header {
+	margin: 0 auto;
+	width: auto;
+	height: 40px;
+	margin-top: 61px;
+	position: relative;
+	border-bottom: 1px solid #E5E5E5;
+	white-space: nowrap;
+}
+
+#nav {
+	display: inline;
+	margin-top: 20px;
+	text-transform: uppercase;
+	padding-left: 0px;
+}
+
+
+#nav li{
+	display: inline-block;
+	color: #FB00A0;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+
+#nav li a {
+	text-decoration: none;
+	color: black;
+}
+
+#nav li a:hover {
+	color: #FB00A0;
+}
+
+.first_li {
+	margin-left: 5%;
+	width: 15%;
+	text-align: left;
+}
+
+.middle_li {
+	width: 20%;
+	text-align: center;
+}
+
+.last_li {
+	margin-right: 5%;
+	width: 15%;
+	text-align: right;
+}
+
+#logo {
+	position: absolute;
+	width: 80px;
+	height: 74px;
+	background-image:url(/images/logo_ppp_black1.png);
+	top: -59px;
+	left: 46%;
+}
+
+
+#hero {
+	clear: left;
+	height: 449px;
+	background-image: url(../images/hero_bg.jpg);
+}
+
+
+#hero img {
+	margin: 0 auto;
+	display: block;
+	padding-top: 20px;
+}
+
+
+#footer {
+	height: 60px;
+	clear: both;
+    border-top: 3px solid #B1B1B1;
+    background-color: #585858;
+	margin: 50px auto 0 auto;
+	width: 100%;
+	min-width: 1000px;
+}
+
+#footer_container {
+    max-width: 66.401062417%;
+    margin: 0 auto;
+}
+
+#copyright_info {
+	color: white;
+	font-size: 13pt;
+	padding-top: 15px;
+	float: left;
+	margin-left: 50px;
+
+}
+
+
+p {
+	font-size: 15px;
+    line-height: 18px;
+	color: black;
+	margin-bottom: 0px;
+}
+
+
+.highlight_text {
+	font-weight: bold;
+	font-size: 17px;
+	color: #FF34B3;
+}
+
+#current_page {
+	animation:currentpageanimation 5s;
+}
+
+@keyframes currentpageanimation {
+
+from {
+	color: black;
+}
+to {
+	color: #FB00A0;
+}
+
+}
+
+@-webkit-keyframes currentpageanimation { /* Safari and Chrome */
+	
+from {
+	color: black;
+}
+to {
+	color: #FB00A0;
+}
+
+}
+
+
+h3 {
+	color: black;
+	font-size: 22px;
+	letter-spacing: -1px;
+	border-bottom: 1px solid pink;
+	padding-bottom: 15px;
+	margin-top: 30px;
+}
+
+
+.top_header_no_spaces {
+	margin: 0px;	
+}
+
+.gaps_between_paragraphs {
+     margin: 36px 0px 0px 0px;
+     border-top: 2px solid #DBD7D7;
+}
+
+#typewriter_wrapper {
+
+	height: 120px;
+	margin: 0px 50px 30px 50px;
+}
+
+#ticker p {	
+	font-size: 23px;
+	color: black;
+	line-height: 36px;
+	text-align: center;
+	padding: 15px;
+	margin-top: 0px;
+}
+
+.fa-caret-right {
+	font-size: 12px;
+	color: #717171;
+}	
+
+#social {
+	float: right;	
+	width: 126px;
+	margin: 10px 50px 0px 0px;
+}
+
+
+#fb_icon, #email_icon, #linkedin_icon {
+	display: block;
+	float: left;
+	height: 33px;
+	width: 32px
+}
+
+#fb_icon {
+	background-image: url(/images/fb_icon.png);	
+}
+
+#fb_icon:hover, #email_icon:hover, #linkedin_icon:hover {
+	opacity: 0.5;
+}
+
+#email_icon {
+	background-image: url(/images/email_icon.png);	
+	margin-left: 15px;
+}
+
+#linkedin_icon {
+	background-image: url(/images/linkedin_icon.png);	
+	margin-left: 15px;
+}
+

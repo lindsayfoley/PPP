@@ -1,0 +1,131 @@
+/* iPad */
+@media screen and (min-width : 569px) and (max-width : 768px) {
+
+#our_story, #our_skills {
+	width: 39.0625%!important;
+	margin-left: 5.72916667%!important;
+}
+
+#our_story {
+	margin-right: 4.42708333%!important;
+}
+
+#our_skills {
+	margin-right: 4.42708333%!important;
+}
+
+#pet_pics {
+	width: 103.90625%!important;
+    margin-left: 7.8125%!important;
+}
+
+#scampi_polaroid {
+	margin-left: 3.90625%!important;
+}
+
+#hugo_polaroid {
+	margin-left: 0px!important;
+}
+
+}
+
+/* iPhone portrait */
+@media only screen and (max-width : 568px) and (orientation : portrait) {
+
+#wrap {
+	width: 100%!important;
+	max-width: 360px!important;	
+	max-width: 320px!important;	
+}
+
+#nav {
+	top: 1145px!important;
+}
+
+
+#content {
+	height: 1420px!important;
+	padding-bottom: 10px!important;
+	background-color: white!important;
+    border: 0;
+	overflow: hidden;
+
+}
+
+#our_story, #our_skills {
+	max-width: 304px!important;
+	margin: 0px auto 10px auto!important;
+	float: none!important;
+	position: absolute!important;
+	padding: 0px 8px 0px 8px!important;
+	left: 0px;
+}
+
+#our_story {
+	top: 90px!important;	
+	height: auto!important	
+}
+
+#our_skills {
+	top: 660px!important;	
+	height: auto!important
+}
+
+#pet_pics {
+	display: none!important;	
+}
+
+}
+
+/* iPhone 5s landscape */
+@media only screen and (min-width : 320px) and (max-width : 568px) and (orientation : landscape) {
+
+#wrap {
+	width: 100%!important;
+	max-width: 568px!important;	
+	overflow: hidden!important;
+}
+
+
+#nav {
+	top: 780px!important;
+}
+
+
+#content {
+	height: 820px!important;
+	padding-bottom: 10px!important;
+	background-color: white!important;
+	border: 0!important;
+
+}
+
+#our_story, #our_skills {
+	max-width: 554px!important;
+	margin: 0px auto 10px auto!important;
+	float: none!important;
+	position: absolute!important;
+	padding: 0px 8px 0px 8px!important;
+	left: 0px;
+	overflow: hidden!important;	
+}
+
+#our_story {
+	top: -20px!important;	
+	height: auto!important	
+}
+
+#our_skills {
+	top: 350px!important;	
+	height: auto!important
+}
+
+#pet_pics {
+	display: none!important;	
+}
+
+#footer {
+	margin-top: 150px;
+}
+
+}

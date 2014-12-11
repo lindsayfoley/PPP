@@ -1,0 +1,74 @@
+/* desktop only animation */
+@media screen and (min-width : 769px)  {
+
+#our_story, #our_skills  {
+	width: 40%!important;
+	max-width: 400px!important;
+}
+
+}
+
+/* Default desktop styling */
+
+#content {
+	width: 1000px;
+	height: auto;
+	clear: left;
+	background-color: #FAFAFA!important;
+	border: 1px dashed #e8e7e7;
+}
+
+#our_story, #our_skills  {
+	float: left;
+	max-width: 400px;
+	font-size: 14px;
+	margin: 30px 0px 40px 50px;
+	
+}
+
+#our_skills {
+       margin-left: 100px;
+}
+
+#pet_pics {
+	width: 1000px;	
+	clear: left;
+}
+
+#hugo_polaroid, #scampi_polaroid  {
+	float: left;
+	height: 319px;	
+}
+
+#hugo_polaroid {
+	margin-left: 108px;
+	background-image: url(/images/hugo_sprite.png);
+	background-position: 0 -328px;
+	width: 289px;
+}
+
+#hugo_polaroid:hover {
+	background-position: 0 -9px;
+}
+
+#scampi_polaroid {
+	background-image: url(/images/scampi_sprite.png);
+	background-position: 0 -334px;
+	width: 290px;
+	margin: 27px 0px 0px 196px;
+}
+
+#scampi_polaroid:hover {
+	background-position: 0 -334px;
+	background-position: 0 -15px;
+
+}
+
+#first_p {
+	margin-top: 13px;	
+}
+
+#content_text {
+	margin-left:25px;
+	
+}

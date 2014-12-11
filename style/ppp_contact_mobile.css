@@ -1,0 +1,181 @@
+@media screen and (min-width: 569px) and (max-width: 768px) {
+#content {
+    width: 768px !important;
+}
+#contact_section {
+    height: 580px;
+    width: 768px !important;
+}
+#contact_header {
+    width: 250px !important;
+}
+#pricing_text, #availability_text {
+    width: 307px !important;
+}
+img {
+    height: auto !important;
+    width: 200px !important;
+}
+#typewriter_img {
+    margin-left: 80px !important;
+}
+}
+@media only screen and (max-width: 568px) and (orientation: portrait) {
+#nav {
+    top: 1112px !important;
+}
+#content {
+    background-color: #FFFFFF !important;
+    border: 0 none;
+    height: 1395px !important;
+    max-width: 304px !important;
+    padding: 0 8px !important;
+}
+#contact_section {
+    background-color: #FFFFFF !important;
+    border: 0 none !important;
+    max-width: 304px !important;
+}
+#contact_container {
+    background-color: #FFFFFF !important;
+    left: 0;
+    margin: 0 auto !important;
+    position: absolute !important;
+    top: 90px !important;
+}
+#contact_details, #typewriter_img, #pricing_text, #availability_text {
+    float: none !important;
+    margin: 0 !important;
+    position: absolute !important;
+    width: 304px;
+}
+#contact_details {
+    margin-right: 50px !important;
+    padding-left: 8px !important;
+}
+#typewriter_img, #pricing_text, #availability_text {
+    left: 10px !important;
+    width: 304px !important;
+}
+#typewriter_img {
+    height: auto !important;
+    margin-left: 55px !important;
+    top: 310px !important;
+    width: 200px !important;
+}
+#pricing_text {
+    border-top: 0 none;
+    padding: 0 !important;
+    top: 670px !important;
+}
+#availability_text {
+    border-top: 0 none;
+    top: 918px !important;
+}
+#contact_header {
+    margin: 0 !important;
+    width: 304px !important;
+}
+#prices, #lightbox_background {
+    height: 340px !important;
+    max-width: 270px !important;
+    padding: 10px !important;
+}
+#prices {
+    overflow: hidden !important;
+    position: static !important;
+    z-index: 9999 !important;
+}
+#black_overlay {
+    overflow: hidden !important;
+    z-index: 9998 !important;
+}
+#back_close_box {
+    max-width: 270px !important;
+    padding-top: 5px !important;
+}
+.fa-envelope {
+    display: none !important;
+}
+}
+@media only screen and (min-width: 320px) and (max-width: 568px) and (orientation: landscape) {
+
+#nav {
+    top: 990px !important;
+}
+
+#content {
+    background-color: #FFFFFF !important;
+    border: 0 none;
+    height: 1105px !important;
+    padding: 0 8px !important;
+    width: 554px !important;
+	overflow: hidden;
+
+}
+
+#contact_section {
+    background-color: #FFFFFF !important;
+    border: 0 none !important;
+    width: 554px !important;
+}
+#contact_container {
+    background-color: #FFFFFF !important;
+    left: 0;
+    margin: 0 auto !important;
+    position: absolute !important;
+    top: -20px !important;
+}
+#contact_details, #typewriter_img, #pricing_text, #availability_text {
+    float: none !important;
+    margin: 0 !important;
+    position: absolute !important;
+    width: 554px;
+}
+#contact_details {
+    margin-right: 50px !important;
+    padding-left: 8px !important;
+}
+#pricing_text, #availability_text {
+    left: 12px !important;
+    width: 554px !important;
+}
+#typewriter_img {
+    height: auto !important;
+    margin: 0 auto 0 150px !important;
+    top: 250px !important;
+    width: 210px !important;
+}
+#pricing_text {
+    border-top: 0 none;
+    padding: 0 !important;
+    top: 490px !important;
+}
+#availability_text {
+    border-top: 0 none;
+    top: 700px !important;
+}
+#contact_header {
+    margin: 0 !important;
+    width: 554px !important;
+}
+#prices, #lightbox_background {
+    height: 220px !important;
+    margin-top: 30px !important;
+    padding: 20px 15px 15px !important;
+    width: 500px !important;
+}
+#prices {
+    overflow: hidden !important;
+    position: static !important;
+    z-index: 9999 !important;
+}
+#black_overlay {
+    overflow: hidden !important;
+    z-index: 9998 !important;
+}
+#back_close_box {
+    padding-top: 5px !important;
+    width: 490px !important;
+}
+}

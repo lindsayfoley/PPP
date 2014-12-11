@@ -1,0 +1,172 @@
+/* iPad */
+@media screen and (min-width : 569px) and (max-width : 768px) {
+
+html, body {
+	overflow-x: hidden!important;	
+	overflow-y: hidden!important;
+	max-width: 768px!important;
+	min-width: 569px!important;
+	width: 100%!important;
+}
+
+body, #content, #wrap div, .wrap, #footer_container {
+	width: 100%!important;
+	max-width: 768px!important;
+	min-width: 569px!important;
+}
+
+#header {
+	max-width: 768px!important;
+	min-width: 569px!important
+}
+
+#nav {
+	text-align: center;
+	font-size: 14px!important;
+	margin-right: 0!important;
+}
+
+body {
+	height: auto!important;
+}
+
+#hero {
+	height: 340px!important;
+	max-width: 768px!important;
+	min-width: 569px!important;
+}
+
+
+#logo {
+	width: 70px!important;
+	height: 64px!important;
+	background-size: 100%!important;
+	top: -50px!important;
+}
+
+#content {
+	margin-top: 60px!important;
+}
+
+#footer_container {
+	margin-left: 50px!important;
+}
+
+#social {
+	margin-right: 100px!important;
+}
+
+img {
+	width: 100%!important;
+}
+
+#ticker p {
+	font-size: 20px!important;	
+	line-height: 27px!important;	
+}
+
+} 
+
+/* iPhone portrait */
+
+@media only screen and (max-width : 568px) and (orientation : portrait) {
+
+#hero {
+	height: 180px!important;
+	margin-top: 90px!important;
+}
+	
+#hero img {
+	height: auto!important;
+	margin: 0 auto!important;
+	position: absolute!important;
+	top: 80px!important;
+	left: 0px!important;
+	overflow: hidden!important;
+}
+
+#typewriter_wrapper {
+	margin: 0px!important;
+}
+
+#ticker {
+	margin: 0!important;
+	padding: 0px 6px!important;
+}
+
+#ticker p {
+	font-size: 16px!important;	
+	line-height: 22px!important;	
+	margin: 0px!important;	
+	padding: 0!important;
+}
+
+#nav {
+	top: 360px!important;
+}
+
+#content {
+	height: 365px!important;
+	padding-bottom: 10px!important;
+}
+
+}
+
+/* iPhone 5s landscape */
+
+@media only screen and (min-width : 320px) and (max-width : 568px) and (orientation : landscape) {
+
+
+#hero {
+	height: 270px!important;
+	margin-top: -10px!important;
+}
+
+#hero img {
+	width: 500px!important;	
+	height: auto!important;
+	position: absolute!important;
+	top: 100px!important;
+	left: 40px!important;
+	overflow: hidden!important;
+}
+
+#header {
+	border: 0!important;
+}
+
+#typewriter_wrapper, #ticker {
+	width: 500px!important;
+}
+
+#typewriter_wrapper {
+	margin: 0px!important;
+	padding: 0px 0px 0px 20px!important;
+}
+
+#ticker {
+	margin: 0!important;
+	padding: 0px 6px!important;
+}
+
+#ticker p {
+	font-size: 16px!important;	
+	line-height: 22px!important;	
+	margin: 0px!important;	
+	padding: 0!important;
+}
+
+#nav {
+	top: 435px!important;
+}
+
+#content {
+	height: 290px!important;
+	margin-top: 20px!important;
+}
+
+#footer {
+	margin-top: 80px;
+}
+
+}
